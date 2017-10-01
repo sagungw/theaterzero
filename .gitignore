@@ -1,0 +1,6 @@
+vendor/
+config.yaml
+lib/utils/resources.go
+.vscode/*
+!.vscode/launch.json
+*/debug

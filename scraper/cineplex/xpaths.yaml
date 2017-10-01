@@ -1,0 +1,2 @@
+cinema_list_url: http://www.21cineplex.com/theaters
+cinema_element: //tr[@data-city]/td[1]/a

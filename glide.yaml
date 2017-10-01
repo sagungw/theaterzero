@@ -1,0 +1,13 @@
+package: theaterzero.com/backend
+import:
+- package: github.com/spf13/viper
+- package: golang.org/x/net
+  subpackages:
+  - html
+- package: github.com/antchfx/xquery
+- package: gopkg.in/yaml.v2
+- package: github.com/antchfx/xpath
+- package: github.com/Sirupsen/logrus
+  version: ~1.0.3
+- package: github.com/satori/go.uuid
+  version: ~1.1.0

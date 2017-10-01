@@ -1,0 +1,82 @@
+hash: 6caabe14309b1776e4e52487e41395ff24b23c28c72aae678db56590ebeeecdb
+updated: 2017-10-01T18:57:03.837500942+07:00
+imports:
+- name: github.com/antchfx/xpath
+  version: 58d12fe685d684ed55aab3b988394652025e36dc
+- name: github.com/antchfx/xquery
+  version: 442bfabf14dcc3267c6268c526720e659b5c0e65
+  subpackages:
+  - html
+- name: github.com/fsnotify/fsnotify
+  version: a904159b9206978bb6d53fcc7a769e5cd726c737
+- name: github.com/hashicorp/hcl
+  version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/magiconair/properties
+  version: b3b15ef068fd0b17ddf408a23669f20811d194d2
+- name: github.com/mitchellh/mapstructure
+  version: db1efb556f84b25a0a13a04aad883943538ad2e0
+- name: github.com/pelletier/go-buffruneio
+  version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
+- name: github.com/pelletier/go-toml
+  version: 22139eb5469018e7374b3e7ef653de37ffb44f72
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/Sirupsen/logrus
+  version: f006c2ac4710855cf0f916dd6b77acf6b048dc6e
+- name: github.com/spf13/afero
+  version: 9be650865eab0c12963d8753212f4f9c66cdcf12
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: f820543c3592e283e311a60d2a600a664e39f6f7
+- name: github.com/spf13/jwalterweatherman
+  version: fa7ca7e836cf3a8bb4ebf799f472c12d7e903d66
+- name: github.com/spf13/pflag
+  version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
+- name: github.com/spf13/viper
+  version: 7538d73b4eb9511d85a9f1dfef202eeb8ac260f4
+- name: golang.org/x/crypto
+  version: 453249f01cfeb54c3d549ddb75ff152ca243f9d8
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/net
+  version: 6b27048ae5e6ad1ef927e72e437531493de612fe
+  subpackages:
+  - html
+  - html/atom
+  - html/charset
+- name: golang.org/x/sys
+  version: 075e574b89e4c2d22f2286a7e2b919519c6f3547
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 767daa157b4d460bba02409ff856ddeeb8e76ab7
+  subpackages:
+  - encoding
+  - encoding/charmap
+  - encoding/htmlindex
+  - encoding/internal
+  - encoding/internal/identifier
+  - encoding/japanese
+  - encoding/korean
+  - encoding/simplifiedchinese
+  - encoding/traditionalchinese
+  - encoding/unicode
+  - internal/tag
+  - internal/utf8internal
+  - language
+  - runes
+  - transform
+  - unicode/norm
+- name: gopkg.in/yaml.v2
+  version: a3f3340b5840cee44f372bddb5880fcbc419b46a
+testImports: []
