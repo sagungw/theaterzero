@@ -1,5 +1,5 @@
-hash: 6caabe14309b1776e4e52487e41395ff24b23c28c72aae678db56590ebeeecdb
-updated: 2017-10-01T18:57:03.837500942+07:00
+hash: aaf0caa03187b94c9f3f9aad982618a66a6dc2312b483650e0e7b706c22409b9
+updated: 2017-10-19T20:13:25.410162+07:00
 imports:
 - name: github.com/antchfx/xpath
   version: 58d12fe685d684ed55aab3b988394652025e36dc
@@ -9,6 +9,11 @@ imports:
   - html
 - name: github.com/fsnotify/fsnotify
   version: a904159b9206978bb6d53fcc7a769e5cd726c737
+- name: github.com/garyburd/redigo
+  version: 433969511232c397de61b1442f9fd49ec06ae9ba
+  subpackages:
+  - internal
+  - redis
 - name: github.com/hashicorp/hcl
   version: 630949a3c5fa3c613328e1b8256052cbc2327c9b
   subpackages:
@@ -28,6 +33,8 @@ imports:
   version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
 - name: github.com/pelletier/go-toml
   version: 22139eb5469018e7374b3e7ef653de37ffb44f72
+- name: github.com/reactivex/rxgo
+  version: 23f38f99d1c3fadfb560f5f7ac2fce17b9ebc03d
 - name: github.com/satori/go.uuid
   version: 879c5887cd475cd7864858769793b2ceb0d44feb
 - name: github.com/Sirupsen/logrus
@@ -44,10 +51,6 @@ imports:
   version: 9ff6c6923cfffbcd502984b8e0c80539a94968b7
 - name: github.com/spf13/viper
   version: 7538d73b4eb9511d85a9f1dfef202eeb8ac260f4
-- name: golang.org/x/crypto
-  version: 453249f01cfeb54c3d549ddb75ff152ca243f9d8
-  subpackages:
-  - ssh/terminal
 - name: golang.org/x/net
   version: 6b27048ae5e6ad1ef927e72e437531493de612fe
   subpackages:

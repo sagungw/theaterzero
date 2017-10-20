@@ -25,6 +25,11 @@ func ScrapeCinemas() {
 
 	err = repository.BulkSaveCinema(cs)
 	if err != nil {
-		log.Errorf("Fetching cinemas failed. %s\n", err.Error())
+		log.Errorf("Fetching cinemas failed. %s\n", e	rr.Error())
 	}
+}
+
+// ScrapeMovies :nodoc:
+func ScrapeMovies() {
+
 }
